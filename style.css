@@ -1,0 +1,56 @@
+body{
+    background: url('фон.jpg');
+}
+header{
+    background-color: #BFD2B1;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 5px 5px 20px #2b3b20b0;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap:wrap;
+  padding: 2%;
+  padding-right: 4%;
+}
+h2{
+display: inline-block;
+}
+h1{
+   color: #BFD2B1; 
+}
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('Comfortaa-Regular.ttf') format('truetype');
+} 
+
+header a{
+    font-family: 'Comfortaa';
+    color: #45694C;
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'BadScript';
+    src: url(BadScript-Regular.ttf);
+}
+h3{
+    font-family: 'BadScript';
+}
+p{
+    font-family: 'BadScript';
+    line-height: 10px;
+    padding-left: 20px;
+}
+.ogl{
+    background-color: #dfe7e3;
+    border-radius: 25px 25px 25px 25px;
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 15pt;
+    width: 50%;
+    display: inline-block;
+    text-align: left;
+}
+.ogl a{
+    color: black;
+    text-decoration: none;
+}
